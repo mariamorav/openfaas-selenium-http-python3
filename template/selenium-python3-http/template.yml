@@ -1,0 +1,33 @@
+language: selenium-python3-http
+fprocess: python3 index.py
+build_options:
+  - name: selenium
+    packages: 
+      - make
+      - automake
+      - gcc
+      - g++
+      - subversion
+      - python3-dev
+      - musl-dev
+      - libffi-dev
+      - git
+      - selenium
+      - chromium
+      - chromium-chromedriver
+  - name: mysql
+    packages: 
+      - mysql-client
+      - mysql-dev
+  - name: pillow
+    packages: 
+      - jpeg-dev
+      - zlib-dev
+      - freetype-dev
+      - lcms2-dev
+      - openjpeg-dev
+      - tiff-dev
+      - tk-dev
+      - tcl-dev
+      - harfbuzz-dev
+      - fribidi-dev
